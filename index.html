@@ -18,8 +18,16 @@
       font-size: 52px;
       text-align: center;
     }
+    button {
+      display: block;
+      font-size: 36px;
+      color: white;
+      background-color: green;
+      text-align: center;
+    }
     .winner {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       position: absolute;
@@ -32,6 +40,10 @@
 <body>
   <div class="winner hidden">
     <h1>You Win!</h1>
+    <button type="button" style="display: block;">Start A New Game!</button>
+  </div>
+  <div class="reload hidden">
+    
   </div>
   <script src="index.js"></script>
 </body>
